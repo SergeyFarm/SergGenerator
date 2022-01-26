@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
+  background-color: darkgray;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper .wrapper__title {
+    font-size: 30px;
+  }
+  .wrapper .wrapper__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .wrapper__submit {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .wrapper .wrapper__submit2 {
+    width: 250px;
+  }
+}
+
+.wrapper__title {
+  text-align: center;
+  padding-top: 50px;
+  color: mediumblue;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.wrapper__form {
+  max-width: 620px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.wrapper__label {
+  display: block;
+  color: mediumblue;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.wrapper__number {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 10px;
+  display: block;
+  border-radius: 10px;
+}
+
+.wrapper__label2 {
+  display: block;
+  color: mediumblue;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.wrapper__number2 {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 10px;
+  display: block;
+  border-radius: 10px;
+}
+
+.wrapper__input-check {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.wrapper__check-num {
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 230px;
+  left: 40px;
+}
+
+.wrapper__check-tit {
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 270px;
+  left: 40px;
+}
+
+.wrapper__check-tit2 {
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 310px;
+  left: 40px;
+}
+
+.wrapper__check-simb {
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+}
+
+.wrapper__btn {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.wrapper__submit {
+  width: 35%;
+  height: 40px;
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.wrapper__submit2 {
+  width: 35%;
+  height: 40px;
+  color: mediumblue;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.wrapper__iner {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.wrapper .container {
+  width: 100%;
+  padding: 0 15px;
+}

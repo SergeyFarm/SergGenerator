@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 500px) {
+ 	.wrapper__title{    
+                 font-size: 30px;
+		}
+       .wrapper__btn{
+          display: flex;
+          flex-wrap: wrap;
+        
+        }
+       .wrapper__submit {
+            width: 250px;
+         margin-bottom: 10px;
+		}
+
+		// .wrapper__submit2
+
+		.wrapper__submit2 {
+                width: 250px;
+         
+		}
+}
